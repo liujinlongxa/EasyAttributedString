@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EasyAttributedString_Example' do
+  pod 'EasyAttributedString', :path => '../'
+
+  target 'EasyAttributedString_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
