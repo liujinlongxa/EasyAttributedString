@@ -14,7 +14,7 @@
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		3A79AC9DD66E45C2FEB29AB4870C091B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		3B804B89218C942C00AFB579 /* EasyAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B804B88218C942C00AFB579 /* EasyAttributedString.swift */; };
+		3B6C04C7218F4BF100317FF7 /* EasyAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C04C6218F4BF000317FF7 /* EasyAttributedString.swift */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4362789C015107F52211C2002A8252FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
@@ -80,7 +80,7 @@
 		34CBEE5CE038CE5BEEAB5A64F28B9489 /* Pods-EasyAttributedString_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyAttributedString_Tests-umbrella.h"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3B804B88218C942C00AFB579 /* EasyAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyAttributedString.swift; sourceTree = "<group>"; };
+		3B6C04C6218F4BF000317FF7 /* EasyAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EasyAttributedString.swift; path = Classes/EasyAttributedString.swift; sourceTree = "<group>"; };
 		3DB637167B54093FB19E9CD5D4A8939D /* Pods-EasyAttributedString_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyAttributedString_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		406F43E8ED1EB175F8D547D7383D9A97 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,9 +205,9 @@
 		30CF2E61EA88EC6C77265CFEEB7B3E46 /* EasyAttributedString */ = {
 			isa = PBXGroup;
 			children = (
+				3B6C04C6218F4BF000317FF7 /* EasyAttributedString.swift */,
 				C86D18D8498C318DC856CD6E7BFDA866 /* Pod */,
 				4CB1D522A9203374F50C7F25C6256C93 /* Support Files */,
-				3B804B88218C942C00AFB579 /* EasyAttributedString.swift */,
 			);
 			name = EasyAttributedString;
 			path = ../..;
@@ -483,7 +483,7 @@
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					2F6060E34D60441B82C1ED18C9472811 = {
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -512,7 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B804B89218C942C00AFB579 /* EasyAttributedString.swift in Sources */,
+				3B6C04C7218F4BF100317FF7 /* EasyAttributedString.swift in Sources */,
 				603B02AE35F1A8EF9B47A7F64B9C23A2 /* EasyAttributedString-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

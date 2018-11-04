@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'EasyAttributedString_Example' do
-  pod 'EasyAttributedString', :path => '../'
+  pod 'EasyAttributedString', :path => '../Classes/'
 
   target 'EasyAttributedString_Tests' do
     inherit! :search_paths
