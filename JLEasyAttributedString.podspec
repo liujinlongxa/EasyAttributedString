@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'EasyAttributedString'
+  s.name             = 'JLEasyAttributedString'
   s.version          = '0.2.1'
   s.summary          = 'An easy way to use NSAttributedString'
 
