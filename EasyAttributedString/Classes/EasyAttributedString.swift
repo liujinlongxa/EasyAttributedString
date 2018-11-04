@@ -17,7 +17,7 @@ public extension String {
 public class EASAdapter {
     
     public struct AttributeModel {
-        var key: NSAttributedStringKey
+        var key: NSAttributedString.Key
         var value: Any?
         var range: NSRange?
     }
@@ -230,7 +230,7 @@ extension EASAdapter {
 
 // MARK: - Private Method
 extension EASAdapter {
-    func handleAnyValue(key: NSAttributedStringKey, value: Any?, range: NSRange?) -> EASAdapter {
+    func handleAnyValue(key: NSAttributedString.Key, value: Any?, range: NSRange?) -> EASAdapter {
         if let value = value {
             let model = AttributeModel(key: key, value: value, range: range)
             attributeModels.append(model)
@@ -240,7 +240,7 @@ extension EASAdapter {
         return self
     }
     
-    func handleDoubleValue(key: NSAttributedStringKey, value: Double?, range: NSRange?) -> EASAdapter {
+    func handleDoubleValue(key: NSAttributedString.Key, value: Double?, range: NSRange?) -> EASAdapter {
         if let value = value {
             let model = AttributeModel(key: key, value: NSNumber(floatLiteral: value), range: range)
             attributeModels.append(model)
@@ -250,7 +250,7 @@ extension EASAdapter {
         return self
     }
     
-    func handleIntegerValue(key: NSAttributedStringKey, value: Int?, range: NSRange?) -> EASAdapter {
+    func handleIntegerValue(key: NSAttributedString.Key, value: Int?, range: NSRange?) -> EASAdapter {
         if let value = value {
             let model = AttributeModel(key: key, value: NSNumber(integerLiteral: value), range: range)
             attributeModels.append(model)
