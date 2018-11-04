@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07AC431D5DB7FDB9D4B4A706 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		07AC431D5DB7FDB9D4B4A706 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		59AB6F8A8D48A6DB43F09BAF /* Pods_EasyAttributedString_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAttributedString_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBD8805204C9D23E13AFFFF /* Pods-EasyAttributedString_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAttributedString_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAttributedString_Tests/Pods-EasyAttributedString_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EasyAttributedString_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAttributedString_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9E2FE40BD541CCD3BC28EB2B /* Pods_EasyAttributedString_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAttributedString_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EEB0F953B40BCB4480CBB2D /* EasyAttributedString.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EasyAttributedString.podspec; path = ../EasyAttributedString.podspec; sourceTree = "<group>"; };
-		B94A8BC0A8C5C2ED15A6767C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9EEB0F953B40BCB4480CBB2D /* EasyAttributedString.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasyAttributedString.podspec; path = ../EasyAttributedString.podspec; sourceTree = "<group>"; };
+		B94A8BC0A8C5C2ED15A6767C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C900B8D8569E0ABEA7F830DF /* Pods-EasyAttributedString_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAttributedString_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAttributedString_Example/Pods-EasyAttributedString_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D704B2409671565EBBC398C7 /* Pods-EasyAttributedString_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAttributedString_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAttributedString_Tests/Pods-EasyAttributedString_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2A725CBE266892551F75E43 /* Pods-EasyAttributedString_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAttributedString_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAttributedString_Example/Pods-EasyAttributedString_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +213,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6HU96XHEX2;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -488,6 +489,7 @@
 			baseConfigurationReference = F2A725CBE266892551F75E43 /* Pods-EasyAttributedString_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6HU96XHEX2;
 				INFOPLIST_FILE = EasyAttributedString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -503,6 +505,7 @@
 			baseConfigurationReference = C900B8D8569E0ABEA7F830DF /* Pods-EasyAttributedString_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6HU96XHEX2;
 				INFOPLIST_FILE = EasyAttributedString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

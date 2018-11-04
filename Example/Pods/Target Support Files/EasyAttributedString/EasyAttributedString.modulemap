@@ -1,0 +1,6 @@
+framework module EasyAttributedString {
+  umbrella header "EasyAttributedString-umbrella.h"
+
+  export *
+  module * { export * }
+}

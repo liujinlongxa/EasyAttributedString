@@ -1,0 +1,27 @@
+PODS:
+  - EasyAttributedString (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EasyAttributedString (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  EasyAttributedString:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyAttributedString: 8a5a69ab5660f5cb77806da873fb6e171e4e5344
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: ac395c6f7a2ddba50731c34ab54d275e52e46f04
+
+COCOAPODS: 1.5.3

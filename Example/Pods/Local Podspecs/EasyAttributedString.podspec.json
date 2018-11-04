@@ -1,0 +1,22 @@
+{
+  "name": "EasyAttributedString",
+  "version": "0.1.0",
+  "summary": "A short description of EasyAttributedString.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liujinlongxa/EasyAttributedString",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liujinlongxa": "liujinlongxa@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/liujinlongxa/EasyAttributedString.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EasyAttributedString/Classes/**/*"
+}
