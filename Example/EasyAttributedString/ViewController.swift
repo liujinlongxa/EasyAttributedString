@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import EasyAttributedString
+import JLEasyAttributedString
 
 class ViewController: UIViewController {
 
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         We have not one, not two, but three exciting new books for you this season: Machine Learning by Tutorials, Push Notifications by Tutorials, and Advanced iOS App Architecture! We think you’ll really enjoy what we have planned for these books. Read on below to see what’s in store for you!
         We have not one, not two, but three exciting new books for you this season: Machine Learning by Tutorials, Push Notifications by Tutorials, and Advanced iOS App Architecture! We think you’ll really enjoy what we have planned for these books. Read on below to see what’s in store for you!
         """
-        label.attributedText = text.eas
+        let attributedText: NSAttributedString = text.eas
             .font(UIFont.systemFont(ofSize: 18))
             .foregroundColor(UIColor.red)
             .backgroundColor(UIColor.green)
@@ -29,6 +29,7 @@ class ViewController: UIViewController {
             .alignment(.center)
             .headIndent(10, range: NSRange(location: 0, length: 10))
             .attributedString
+        label.attributedText = attributedText.eas.underlineStyle(2).attributedString
     }
 
     override func didReceiveMemoryWarning() {

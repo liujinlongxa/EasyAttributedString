@@ -1,27 +1,16 @@
 PODS:
-  - EasyAttributedString (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - JLEasyAttributedString (0.2.1)
 
 DEPENDENCIES:
-  - EasyAttributedString (from `../`)
-  - FBSnapshotTestCase (~> 2.1.4)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - FBSnapshotTestCase
+  - JLEasyAttributedString (from `../`)
 
 EXTERNAL SOURCES:
-  EasyAttributedString:
+  JLEasyAttributedString:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EasyAttributedString: 8a5a69ab5660f5cb77806da873fb6e171e4e5344
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JLEasyAttributedString: 996c46f55898bb7db18ff50db468fe9c35aa9176
 
-PODFILE CHECKSUM: ac395c6f7a2ddba50731c34ab54d275e52e46f04
+PODFILE CHECKSUM: ff8bc00bf500e491adc8a4e6b577bd1600bdd22b
 
 COCOAPODS: 1.5.3

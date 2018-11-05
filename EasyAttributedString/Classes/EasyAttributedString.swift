@@ -8,12 +8,6 @@
 import Foundation
 import UIKit
 
-public extension String {
-    public var eas: EASAdapter {
-        return EASAdapter(value: self)
-    }
-}
-
 public class EASAdapter {
     
     public struct AttributeModel {
@@ -27,24 +21,47 @@ public class EASAdapter {
         var value: Any?
         var range: NSRange?
     }
+    
+    enum AdapterType {
+        case normal, attributed
+    }
 
     private var attributeModels = [AttributeModel]()
     private var paragraphStyleModels: [ParagraphStyleMolde] = []
-    private var value: String
+    private var value: String!
+    private var attributedValue: NSAttributedString!
+    private var type: AdapterType
+    
     init(value: String) {
         self.value = value
+        self.type = .normal
+    }
+    
+    init(value: NSAttributedString) {
+        self.attributedValue = value
+        self.type = .attributed
     }
     
     public var attributedString: NSAttributedString {
-        let mAttributedString = NSMutableAttributedString.init(string: value)
+        var mAttributedString: NSMutableAttributedString
+        var count = 0
+        if type == .normal {
+            mAttributedString = NSMutableAttributedString(string: value)
+            count = value.count
+        } else {
+            mAttributedString = NSMutableAttributedString(attributedString: attributedValue)
+            count = attributedValue.length
+        }
+        
         for model in attributeModels {
-            let range = model.range ?? NSRange(location: 0, length: value.count)
+            let range = model.range ?? NSRange(location: 0, length: count)
             if let value = model.value {
                 mAttributedString.addAttribute(model.key, value: value, range: range)
             } else {
                 mAttributedString.removeAttribute(model.key, range: range)
             }
         }
+        
         for model in paragraphStyleModels {
             let range = model.range ?? NSRange(location: 0, length: value.count)
             let paragraphStyle = mAttributedString.attribute(.paragraphStyle, at: range.location, longestEffectiveRange: nil, in: range)

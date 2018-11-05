@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## EasyAttributedString
+## JLEasyAttributedString
 
 Copyright (c) 2018 liujinlongxa <liujinlongxa@gmail.com>
 

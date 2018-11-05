@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double EasyAttributedStringVersionNumber;
-FOUNDATION_EXPORT const unsigned char EasyAttributedStringVersionString[];
+FOUNDATION_EXPORT double JLEasyAttributedStringVersionNumber;
+FOUNDATION_EXPORT const unsigned char JLEasyAttributedStringVersionString[];
 

@@ -1,5 +1,5 @@
 import XCTest
-import EasyAttributedString
+import JLEasyAttributedString
 
 class Tests: XCTestCase {
     
