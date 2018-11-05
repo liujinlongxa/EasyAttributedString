@@ -1,6 +1,6 @@
 # EasyAttributedString
 
-[![CI Status](https://img.shields.io/travis/liujinlongxa/EasyAttributedString.svg?style=flat)](https://travis-ci.org/liujinlongxa/EasyAttributedString)
+[![CI Status](https://travis-ci.com/liujinlongxa/EasyAttributedString.svg?branch=master)](https://travis-ci.com/liujinlongxa/EasyAttributedString)
 [![Version](https://img.shields.io/cocoapods/v/EasyAttributedString.svg?style=flat)](https://cocoapods.org/pods/EasyAttributedString)
 [![License](https://img.shields.io/cocoapods/l/EasyAttributedString.svg?style=flat)](https://cocoapods.org/pods/EasyAttributedString)
 [![Platform](https://img.shields.io/cocoapods/p/EasyAttributedString.svg?style=flat)](https://cocoapods.org/pods/EasyAttributedString)
