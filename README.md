@@ -32,7 +32,12 @@ label.attributedText = attributedText.eas.underlineStyle(2).attributedString
 
 ## Requirements
 
+* iOS 8.0+
+* Swift 4.2
+
 ## Installation
+
+### CocoaPods
 
 EasyAttributedString is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -40,6 +45,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'JLEasyAttributedString'
 ```
+
+### Carthage
+
+To be add.
 
 ## Author
 
